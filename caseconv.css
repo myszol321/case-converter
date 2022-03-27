@@ -1,0 +1,30 @@
+.title {
+    font-size: 50px;
+}
+#myTextarea {
+    width: 90%;
+    height: 250px;
+    font-size: 32px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+
+.flex-container > button {
+    background-color: #ff7f50;
+    border: none;
+    padding: 5px;
+    /*margin: 5px;*/
+    font-size: 24px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #ff9d78;
+    color: white;
+}
